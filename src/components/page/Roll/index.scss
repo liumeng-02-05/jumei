@@ -1,0 +1,103 @@
+#Roll-box{
+    height:100%;
+    .Roll-shopping{
+        margin-bottom:.55rem;
+        ul{
+            background:rgb(226, 226, 226);
+            li{
+                height:2.43rem;
+                background: #fff;
+                margin-bottom:.08rem;
+                a{
+                    display:block;
+                    .Roll-shopping-top{
+                        position: relative;
+                        height:1.55rem;
+                        img{
+                            width:1.5rem;
+                            height:1.5rem;
+                            display:block;
+                            margin:0 auto;
+                        } 
+                        span{
+                            position: absolute;
+                            bottom:.3rem;
+                            left:0;
+                            color:#666;
+                            font-size:.12rem;
+                            border: .0625rem solid #eee;
+                            border-left: 0;
+                            border-top-right-radius: 1.5625rem;
+                            border-bottom-right-radius: 1.5625rem;
+                            text-align:center;
+                            padding:.01em .07rem;
+                            background:rgb(245, 243, 243);
+                            box-sizing: border-box;
+                        }
+                    }
+                    .Roll-shopping-bottom{
+                        margin-top:.1rem;
+                        p{
+                            font-size: .14rem;
+                            max-height: .34rem;
+                            line-height: .18rem;
+                            padding: 0 .12rem;
+                            margin-top: .1rem;
+                            padding-left:.12rem;
+                            text-align:left;
+                            white-space: nowrap;
+                            overflow: hidden;
+                            i{
+                                color: #fe4070;
+                            }
+                            span{
+                                color:#000;
+                            }
+                        }
+                        &>span{
+                            margin:.12rem;
+                            display:block;
+                            text-align:left;
+                            position: relative;
+                            b{
+                                font-size:.18rem;
+                                color: #fe4070;
+                                display:block;
+                            }
+                            u{
+                                font-size:.12rem;
+                                color: #999;
+                                display:block;
+                            }
+                            button{
+                                position: absolute;
+                                right:0;
+                                top:.15rem;
+                                border: none;
+                                background: #fe4070;
+                                color:#fff;
+                                line-height:.23rem;
+                                height:.26rem;
+                                font-size:.14rem;
+                                border-radius:.15rem;
+                                width:.87rem;
+                                text-align: content;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .Roll-left-float{
+        width:.41rem;
+        height:.41rem;
+        border-radius: 50%;
+        background: url(../../../assets/go_top.png) no-repeat;
+        background-size:cover;
+        position: fixed;
+        right: .2rem;
+        bottom: .6rem;
+        z-index:201;
+    }
+}

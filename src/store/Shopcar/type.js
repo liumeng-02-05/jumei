@@ -1,0 +1,7 @@
+const ADD_CAR = 'ADD_CAR'
+const REDUCE_CAR = 'REDUCE_CAR'
+const ADD_JIAN = "ADD_JIAN"
+
+export {
+    ADD_CAR,REDUCE_CAR,ADD_JIAN
+}

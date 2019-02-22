@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,td{margin:0;padding:0;} body{font:.12rem  ""; word-wrap:break-word;}
+a,u,s,del{color:#666;text-decoration:none} 
+fieldset ,a img,.bor0 {border:0;}
+i,em,b{font-style:normal;font-weight:100;}
+li{list-style:none;}
+img{vertical-align:middle;} 
+table{border-collapse:collapse;}
+.ind2{text-indent:2em;}
+
+
+/*设置图片垂直水平居中*/
+.valign{text-align:center;}
+.valign img{vertical-align:middle;}
+.valign:after{content:"";vertical-align:middle;height:100%;display:inline-block;}
+
+.l{float:left;}
+.r{float:rught;}
+
+/*设置单行文本溢出出现省略号*/
+.over {white-space:nowrap;overflow:hidden;text-align:ellipsis;}
+
+/*清除浮动   解决浮动元素的高度塌陷问题*/
+.clear{zoom:1;}/*解决高度塌陷问题 解决IE的兼容问题*/
+.clear:after{content:"";clear:both;display:block;}
+.clear:before{content:"";display:table;}/*解决第一块元素的子元素使用margin-top:会传递给父元素的问题*/
+body,html,.App{
+    height:100%;
+    width:100%;
+}

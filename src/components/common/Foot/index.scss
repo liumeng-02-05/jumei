@@ -1,0 +1,32 @@
+#Foot-box{
+    position: fixed;
+    left:0;
+    right:0;
+    bottom:0 ;
+    margin:auto;
+    z-index:200;
+    background:#fff;
+    ul{
+        display:flex;
+        justify-content: space-around;
+        li{
+            width:.84rem;
+            height:.48rem;
+            a{
+                display: block;
+                i{
+                    display:block;
+                    font-size:.14rem;
+                    font-size:.24rem;
+                    margin-top:.03rem;
+                }
+                span{
+                    display: block;
+                    font-size:.12rem;
+                    margin-top:.02rem;
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,102 @@
+#Register-box{
+    height:100%;
+    background:#fff;
+    .Register-top{
+        height:.44rem;
+        border-bottom:.01rem solid rgb(240, 238, 238);
+        img{
+            width:.44rem;
+            height: .44rem;
+            display: block;
+            position: absolute;
+            left:0;
+            top:0;
+        }
+        span{
+            font-size:.16rem;
+            color:rgb(95, 93, 93);
+            text-align:center;
+            line-height: .44rem;
+        }
+        a{
+            position: absolute;
+            right:.08rem;
+            top:.13rem;
+            font-size:.16rem;
+
+        }
+    }
+    .Mine-phone{
+        padding:0 .45rem;
+        width:2.85rem;
+        h3{
+            height:.58rem;
+            text-align:center;
+            line-height:.58rem;
+            font-size:.14rem;
+            color:rgb(180, 173, 173);
+            padding:0 .28rem;
+            box-sizing:border-box;
+        }
+        p{
+            height:.36rem;
+            input{
+                background: #f5f5f5;
+                border-radius: .2rem;
+                width: 100%;
+                height: .36rem;
+                font-size: .14rem;
+                color: #999999;
+                text-align: left;
+                text-indent: .21rem;
+                border:none;
+            }
+        }
+       
+        p:nth-of-type(2){
+            margin-top:.18rem;
+            input{
+                width:1.85rem;
+                float:left;
+            }
+            button{
+                float:right;
+                background: #ffffff;
+                border: .01rem solid #feb2c5;
+                border-radius: .2rem;
+                width: .87rem;
+                height: .35rem;
+                font-size: .14rem;
+                color: #feb2c5;
+                line-height: 35px;
+                text-align: center;
+                display: block;
+            }
+        }
+        p:nth-of-type(3){
+            margin-top:.18rem;
+        }
+        &>button{
+            background: rgb(254, 178, 197)!important;
+            border-radius: .2rem;
+            width: 100%;
+            height: .36rem;
+            font-size: .14rem;
+            color: #ffffff;
+            line-height: .14rem;
+            text-align: center;
+            margin: .18rem auto 0 auto;
+            display: block;
+            border:none;
+        }
+        &>b{
+            font-size: .12rem;
+            color: #999999;
+            height: .36rem;
+            line-height: .36rem;
+            a{
+                color: #808080;
+            }
+        }
+    }
+}

@@ -1,0 +1,101 @@
+#Head-box{
+    .Head-top{
+        height:.55rem;
+        background:url(../../../assets/bg_01.png) repeat-X;
+        position: relative;
+        img{
+            width: .41rem;
+            height:.41rem;
+            margin-top:.06rem;
+            margin-left: .08rem;
+            margin-right: .12rem;
+            float: left;
+            display: block;
+        }
+        p{
+             font-size: .14rem;
+             font-weight: bold;
+             height: .27rem;
+             line-height: .27rem;
+             float:left;
+        }
+        button{
+             position: absolute;
+             top: 13px;
+             width: 84px;
+             height: 30px;
+             line-height: 30px;
+             text-align: center;
+             color: #fff;
+             border: none;
+             border-radius: 20px;
+             right: 22px;
+             font-size: 12px;
+             background: #FE4478;
+        }
+        i{
+            width:.12rem;
+            height:.12rem;
+            display:block;
+            background:#fff url(../../../assets//cha.png) no-repeat ;
+            background-size:cover;
+            position: absolute;
+            top:.05rem;
+            right:.05rem;
+            border-radius:50%;
+        } 
+       
+    }
+    .Head-search{
+        position: relative;
+        background:#fff;
+        a{
+             margin:.08rem .54rem .06rem .2rem;
+             border-radius: .15rem;
+             background:rgba(0,0,0,.05);
+             height:.3rem;
+             display:flex;
+             justify-content: center;
+             img{
+                 width:.16rem;
+                 height:.16rem;
+                 display:block;
+                 margin-top:.08rem; 
+            }
+            span{
+                color: #999;
+                font-size:.14rem;
+                line-height:.3rem;
+                margin-left:.08rem;
+            }
+        }
+        &>img{
+             width:.24rem;
+             height:.17rem;
+             display:block;
+             position: absolute;
+             right:.1rem;
+             top:.13rem;
+         }
+    }
+    .Head-nav{
+        height:.45rem;
+        overflow-x: auto;
+        background: #fff;
+        ul{
+            display:flex;
+            justify-content: space-between;
+            border-bottom:.01rem solid rgb(230, 227, 227);
+            width:120%;
+            li{
+                padding:0 .17rem;
+                line-height:.44rem;
+                a{
+                    position: relative;
+                    color:#666;
+                }
+              
+            }
+        }
+    }
+}
